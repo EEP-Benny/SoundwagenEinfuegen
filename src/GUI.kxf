@@ -3,8 +3,8 @@
 	<properties>
 		<property name="Left" vt="Int16">259</property>
 		<property name="Top" vt="Int16">162</property>
-		<property name="Width" vt="Int16">508</property>
-		<property name="Height" vt="Int16">364</property>
+		<property name="Width" vt="Int16">515</property>
+		<property name="Height" vt="Int16">368</property>
 		<property name="Caption" vt="UTF8String">Soundwagen in Zugverbände einfügen</property>
 		<property name="Color" vt="Ident">clBtnFace</property>
 		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
@@ -17,8 +17,16 @@
 		<property name="Visible" vt="True">True</property>
 		<property name="Style" vt="Int32">-1798438912</property>
 		<property name="ExStyle" vt="Int16">256</property>
-		<property name="Version" vt="String">1.03</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
 		<property name="FormOptIndentCount" vt="Int8">0</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">0</property>
+		<property name="Resizing" vt="Set"/>
 		<property name="PixelsPerInch" vt="Int8">96</property>
 		<property name="TextHeight" vt="Int8">13</property>
 	</properties>
@@ -70,7 +78,8 @@
 				<property name="Height" vt="Int8">25</property>
 				<property name="Caption" vt="String">...</property>
 				<property name="TabOrder" vt="Int8">2</property>
-				<property name="CtrlStyle" vt="Int32">1342259200</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342242816</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Resizing" vt="Set">DockRight, DockTop, DockWidth, DockHeight</property>
 			</properties>
@@ -82,7 +91,7 @@
 				<property name="Top" vt="Int16">255</property>
 				<property name="Width" vt="Int16">325</property>
 				<property name="Height" vt="Int8">21</property>
-				<property name="TabOrder" vt="Int8">9</property>
+				<property name="TabOrder" vt="Int8">8</property>
 				<property name="CtrlStyle" vt="Int32">1342242944</property>
 				<property name="CtrlExStyle" vt="Int16">512</property>
 				<property name="Resizing" vt="Set">DockLeft, DockRight, DockBottom, DockWidth, DockHeight</property>
@@ -96,7 +105,7 @@
 				<property name="Width" vt="Int8">114</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="String">Zugverband speichern:</property>
-				<property name="TabOrder" vt="Int8">8</property>
+				<property name="TabOrder" vt="Int8">7</property>
 				<property name="HaveVariable" vt="False">False</property>
 				<property name="CtrlStyle" vt="Int32">1342177536</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
@@ -111,8 +120,9 @@
 				<property name="Width" vt="Int8">25</property>
 				<property name="Height" vt="Int8">25</property>
 				<property name="Caption" vt="String">...</property>
-				<property name="TabOrder" vt="Int8">10</property>
-				<property name="CtrlStyle" vt="Int32">1342259200</property>
+				<property name="TabOrder" vt="Int8">9</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342242816</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Resizing" vt="Set">DockRight, DockBottom, DockWidth, DockHeight</property>
 			</properties>
@@ -125,8 +135,9 @@
 				<property name="Width" vt="Int8">100</property>
 				<property name="Height" vt="Int8">30</property>
 				<property name="Caption" vt="String">Speichern</property>
-				<property name="TabOrder" vt="Int8">11</property>
-				<property name="CtrlStyle" vt="Int32">1342259200</property>
+				<property name="TabOrder" vt="Int8">10</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342242816</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Resizing" vt="Set">DockBottom, DockHCenter, DockWidth, DockHeight</property>
 			</properties>
@@ -140,7 +151,8 @@
 				<property name="Height" vt="Int8">30</property>
 				<property name="Caption" vt="String">Beenden</property>
 				<property name="TabOrder" vt="Int8">12</property>
-				<property name="CtrlStyle" vt="Int32">1342259200</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342242816</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Resizing" vt="Set">DockBottom, DockHCenter, DockWidth, DockHeight</property>
 			</properties>
@@ -152,6 +164,7 @@
 				<property name="Top" vt="Int8">40</property>
 				<property name="Width" vt="Int16">480</property>
 				<property name="Height" vt="Int16">175</property>
+				<property name="Hint" vt="UTF8String">Einen Soundwagen auswählen und Rechtsklicken, um die Sounds anzuhören</property>
 				<property name="ItemHeight" vt="Int8">13</property>
 				<property name="TabOrder" vt="Int8">3</property>
 				<property name="CtrlStyle" vt="Int32">1350632195</property>
@@ -167,13 +180,12 @@
 				<property name="Top" vt="Int16">225</property>
 				<property name="Width" vt="Int8">17</property>
 				<property name="Height" vt="Int8">21</property>
-				<property name="Associate" vt="Ident">Input1</property>
+				<property name="CtrlStyle" vt="Int32">1342177282</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Min" vt="Int8">1</property>
 				<property name="Max" vt="Int8">10</property>
 				<property name="Position" vt="Int8">1</property>
-				<property name="TabOrder" vt="Int8">6</property>
-				<property name="CtrlStyle" vt="Int32">1342177282</property>
-				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Associate" vt="Ident">Input1</property>
 			</properties>
 			<components/>
 		</object>
@@ -214,7 +226,7 @@
 				<property name="Width" vt="Int16">184</property>
 				<property name="Height" vt="Int8">17</property>
 				<property name="Caption" vt="UTF8String">. Wagen einen Soundwagen einfügen</property>
-				<property name="TabOrder" vt="Int8">7</property>
+				<property name="TabOrder" vt="Int8">6</property>
 				<property name="HaveVariable" vt="False">False</property>
 				<property name="CtrlStyle" vt="Int32">1342177536</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
