@@ -1,10 +1,18 @@
+#NoTrayIcon
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Icon=Icon.ico
 #AutoIt3Wrapper_Outfile=..\build\Soundwagen.exe
+#AutoIt3Wrapper_Compression=4
+#AutoIt3Wrapper_Res_Description=Ein kleines Hilfsprogramm für EEP, mit dem man Soundwagen in bereits vorhandene Zugverbände (als rss-Datei) einfügen und daraus entfernen kann
+#AutoIt3Wrapper_Res_Fileversion=2.0.0.0
+#AutoIt3Wrapper_Res_ProductName=Soundwagen in Zugverbände einfügen
+#AutoIt3Wrapper_Res_ProductVersion=2.0
+#AutoIt3Wrapper_Res_LegalCopyright=©2011-2020 Benjamin Hogl
+#AutoIt3Wrapper_Res_Language=1031
+#AutoIt3Wrapper_Run_Au3Stripper=y
 #AutoIt3Wrapper_Run_Tidy=y
-#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #Tidy_Parameters=/keepnversions=0
-#NoTrayIcon
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
 #include <Array.au3>
 #include <ButtonConstants.au3>

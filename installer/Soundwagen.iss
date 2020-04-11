@@ -7,8 +7,10 @@
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{7D9DEDF2-F6EC-4D96-B28F-ECDB3D788016}
 AppName=Soundwagen in Zugverbände einfügen
-AppVerName=Soundwagen in Zugverbände einfügen
+AppVersion=2.0
+AppCopyright=©2011-2020 Benjamin Hogl
 AppPublisher=Benjamin Hogl (BH2)
+AppPublisherURL=https://emaps-eep.de
 DefaultDirName={autopf}\SoundwagenEinfuegen
 DefaultGroupName=Soundwagen in Zugverbände einfügen
 AllowNoIcons=yes
